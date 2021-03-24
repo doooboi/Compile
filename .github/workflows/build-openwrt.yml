@@ -37,7 +37,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Lienol_x86_64]
+        target: [Lede_gl_mt300n_v2]
 
     steps:
     - name: 准备结束
